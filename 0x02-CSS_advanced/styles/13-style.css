@@ -43,7 +43,7 @@ a:not(:empty) {
     text-decoration: none;
 }
 a:visited {
-    text-decoration: italic;
+    font-style: italic;
 }
 a:hover {
     text-decoration: underline;
