@@ -1,5 +1,4 @@
-/* Target the root element 
-:root can be useful for declaring global CSS variables*/
+/* Target the root element :root can be useful for declaring global CSS variables*/
 html {
     scroll-behavior: smooth;
 }
