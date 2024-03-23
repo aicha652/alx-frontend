@@ -449,7 +449,7 @@ html {
     padding: var(--footer-padding);
   }
   .navbar-menu {
-    direction: ltr;
+    float: right;
   }
   .nav {
     margin: 0;
@@ -457,7 +457,7 @@ html {
     list-style: none;
     text-align: center;
   }
-  .nav-item {
+  .nav-item .nav{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -465,7 +465,7 @@ html {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
   }
-  .nav-link {
+  .nav-link .nav{
     display: block;
     padding-top: 50%;
     padding-bottom: 50%;
