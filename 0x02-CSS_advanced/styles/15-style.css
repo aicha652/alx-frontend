@@ -13,6 +13,10 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
+
+* {
+    box-sizing: border-box;
+}
   
   /* Sections
      ========================================================================== */
@@ -352,9 +356,6 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-}
-* {
-    box-sizing: border-box;
 }
 :root {
     --color-primary: #d73953;
