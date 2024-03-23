@@ -1,6 +1,5 @@
 /* Add universal box-sizing */
 html {
-  box-sizing: border-box;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -340,6 +339,9 @@ template {
   display: none;
 }
 /* Resetting the CSS stylesheet for browser consistency */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
