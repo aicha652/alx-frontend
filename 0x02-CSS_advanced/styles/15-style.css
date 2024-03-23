@@ -10,7 +10,6 @@
  */
 
  html {
-    box-sizing: border-box;
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
@@ -351,6 +350,7 @@
   }
 /* Resetting the CSS stylesheet for browser consistency */
 html {
+    box-sizing: border-box;
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
