@@ -498,7 +498,7 @@ html {
     text-align: right;
   }
   .row::after {
-    content: none;
+    content: "";
     display: table;
     clear: both;
   }
