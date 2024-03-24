@@ -436,9 +436,9 @@ html {
   .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background: var(--button-hover-background);
+    background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-property: color, background;
+    transition-property: color, background-color;
   }
   .visually-hidden {
     display: none;
