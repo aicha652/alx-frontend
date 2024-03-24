@@ -434,9 +434,9 @@ html {
     text-decoration: var(--button-text-decoration);
   }
   .button:hover {
-    color: var(–transition-duration) var(transition-cubic-bezier);
+    color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background: var(–transition-duration) var(transition-cubic-bezier);
+    background: var(--button-hover-background);
     transition-duration: var(--transition-duration);
 
   }
