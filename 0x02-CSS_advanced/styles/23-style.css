@@ -513,6 +513,6 @@ html {
   .social-link {
     display: block;
   }
-  .social-link > svg {
-    background-color: var(--text-color);
+  .social-link svg {
+    fill: var(--text-color);
   }
